@@ -4,23 +4,42 @@
 
 Made modifications to the horiseon index & CSS files
 
+```
 - Updated webpage title element
 - Updated last heading attribute to match sequential order
 - Updated structure & semantic HTML elements
 - Added alt attributes to image elements
+```
 
-## Installation
+## User Story
 
-N/A
+```
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
+```
 
-## Usage
+## Acceptance Criteria
 
-Use DevTool inspect to view updated modifications to index.html
+```
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the icon and image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+```
 
-Shortcuts to inspect on web browsers for:
+## Mock-Up
 
- - Windows: CTRL + SHIFT + I
- - Mac: CMD + OPTION + I
+The following image shows the web application's appearance and functionality:
+
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/00-html-css-git-homework-challenge.png)
 
 ## Credits
 
